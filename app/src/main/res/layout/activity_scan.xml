@@ -7,12 +7,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="outofthewoods.project.com.outofthewoods.Scan">
+    tools:context="outofthewoods.project.com.outofthewoods.Scan"
+    android:background="@drawable/bg3">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Barcode"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button"
         android:id="@+id/scan_barcode"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -23,6 +26,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Scan:"
+        android:textColor="@android:color/white"
         android:id="@+id/textView2"
         android:textSize="60dp"
         android:layout_alignParentTop="true"
